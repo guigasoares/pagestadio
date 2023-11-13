@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+.cabecalho {
+    color: white;
+    background-color: #106317;
+    width: 100%;
+  }
+  
+.cabecalho__slogan {
+    background-color: rgb(24, 80, 24);
+    font-size: 0.9rem;
+    padding: 0.3rem;
+}
+  
+.cabecalho__foto {
+    max-width: 8%;
+    float: left;
+    margin-left: 0.8rem; 
+    z-index: 2;
+    position: absolute;
+}
+  
+.cabecalho__titulo {
+    padding: 1.5rem 0;
+    color: white;
+    text-align: center;
+    font-family: garamond;
+    font-size: 3rem;
+    text-align: center;
+}
+  
+.cabecalho__nav {
+    padding: 0.3rem 0;
+    border-bottom: 0.3rem solid #9b8542;
+    background-color: white;
+    text-align: center;
+}
+  
+.cabecalho__nav-container {
+    margin-right: 6.82rem;
+}
+.cabecalho__nav__botoes {
+    color: rgb(7, 128, 7);
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.3rem;
+}
+.cabecalho__nav__botoes:hover {
+    color: rgb(29, 95, 29);
+}
+.foto1{
+    background-image: url(foto1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100.8%;
+    position: relative;
+    margin-top: 1   ;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.capapreta{
+    background: rgba(0, 0, 0, 0.6); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.conteudo{
+    position: absolute;
+    left: 33%;
+    top: 43%;
+    color: white;
+    font-size: 45px;
+    z-index: 1;
+}
+.casa{
+    font-size: 20px;
+    text-align: center;
+}
+.palestra{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.linhaverde{
+    width: 25%;
+    height: 3px;
+    margin-left: 20px;
+    margin-top: 5px;
+    background-color: green;
+}
+.p1{
+    max-width: 33%;
+    font-size: large;
+    margin-top: 21px;
+    margin-left: 20px;
+    color: white;
+}
+.imgpalestra{
+    width: 27%;
+    float: right;
+    margin-top: -370px;
+    margin-right: 117px;
+}
+.reforma{
+    margin-top: 30px;
+    margin-left: 20px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.article2{
+    background-color: green;
+    padding-top: 20px;
+    margin-top: 30px;
+    font-size: large;
+    padding-bottom: 20px;
+}
+.linhaverdeclara{
+    width: 30.5%;
+    height: 3px;
+    margin-left: 20px;
+    margin-top: 5px;
+    background-color: rgb(98, 234, 98);
+}
+.imgreforma{
+    width: 27%;
+    float: right;
+    margin-top: -370px;
+    margin-right: 118px;
+}
+.article3{
+    background-color: rgb(88, 196, 88);
+    padding-top: 20px;
+    font-size: large;
+}
+.allianz{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.linhaverde3{
+    width: 30.5%;
+    height: 3px;
+    margin-left: 34.7%;
+    margin-top: 5px;
+    background-color: rgb(98, 234, 98);
+}
+.p2{
+    text-align: justify;
+    text-align-last: center;
+    margin-left: 360px;
+    margin-right: 360px;
+    font-size: large;
+    margin-top: 21px;
+    color: white;
+}
+.imgallianz{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 50%;
+}
